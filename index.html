@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <h1>Lanchonete Delivery</h1>
+            <button id="mostrarConcluidos" onclick="window.location.href='concluido.html'">Concluídos</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="main1">
+            <section id="formulario">
+                <form id="pedidoForm">
+                    <label for="nomeCliente">Nome do Cliente:</label>
+                    <input type="text" id="nomeCliente" required>
+                    
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" required>
+
+                    <label for="produto">Escolha o produto:</label>
+                    <select id="produto" required>
+                        
+                    </select>
+                    
+                    <button type="submit">Gerar pedido</button>
+                </form>
+            </section>
+        </div>
+
+        <section id="pedidos">
+            <div id="pendentes" class="column">
+                <h3>Em Execução</h3>
+                <div id="pedidoList"></div>
+            </div>
+
+            <div id="entrega" class="column">
+                <h3>A caminho</h3>
+                <div id="pedidoEntregueList"></div>
+            </div>
+            <div id="concluidos" class="column">
+                <h3>Concluídos</h3>
+                <div id="pedidoConcuidoList"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
