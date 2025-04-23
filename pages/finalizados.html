@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pedidos Finalizados</title>
+  <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/finalizados.css" />
+  
+</head>
+<body>
+  <div class="container">
+    <div class="topo">
+      <h1>Lanchonete Delivery</h1>
+      <button onclick="voltar()" class="btn-voltar">Voltar</button>
+    </div>
+
+    <div class="tabela-wrapper">
+    <table id="tabelaFinalizados">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Cliente</th>
+          <th>Endereço</th>
+          <th>Produto</th>
+          <th>Data</th>
+          <th>Hora Pedido</th>
+          <th>Hora Chegada</th>
+          <th>Preço</th>
+
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="total" id="totalGeral"></div>
+  </div>
+</div>
+   <script src="../scripts/finalizados.js"></script>
+</body>
+</html>

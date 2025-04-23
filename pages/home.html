@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Delivery</title>
+    <link rel="shortcut icon" href="../assets/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/home.css">
+</head>
+<body>
+    <header>
+        <h1>Lanchonete Delivery</h1>
+        <nav>
+            <button onclick="window.location.href='./finalizados.html'">Finalizados</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <label>Cliente: <input type="text" id="cliente"></label>
+            <label>Endereço: <input type="text" id="endereco"></label>
+            <label>Produto: 
+                <select id="produto">
+                    <option value=""> Selecione um produto </option>
+                </select>
+            </label>
+            <button id="gerarPedido">Gerar Pedido</button>
+        </section>
+
+        <section class="pedidos">
+            <div class="coluna">
+                <h2>Em Execução</h2>
+                <div id="execucao"></div>
+            </div>
+            <div class="coluna">
+                <h2>A Caminho</h2>
+                <div id="entrega"></div>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="../scripts/home.js"></script>
+</body>
+</html>

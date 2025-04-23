@@ -22,14 +22,14 @@ Situação de Aprendizagem - Front-End (HTML, CSS, JavaScript). Funcionalidades 
 
 |Web|Mobile|
 |-|-|
-|![Wireframe Web](./assets/wireframe0.png)|![Wireframe Mobile](./assets/wireframe1.png)|
+|![Wireframe Web](./assets/wireframe1.png)|![Wireframe Mobile](./assets/wireframe3.png)|
 |![Wireframe Web2](./assets/wireframe2.png)||
 - [RF003] Responsividade - O sistema deve ser responsivo, ou seja, deve se adaptar a diferentes tamanhos de tela. O sistema deve ser testado em dispositivos móveis e desktops para garantir que a interface do usuário seja exibida corretamente em todos os dispositivos.
 - [RF004] Tela de pedidos finalizados - O sistema deve ter uma tela de pedidos finalizados, onde o usuário pode visualizar os pedidos que foram entregues. A tela deve ser acessada através de um botão na tela principal **Concluídos**. A tela deve exibir os pedidos finalizados em formato tabela responsiva conforme o wireframe a seguir. A tabela deve ser responsiva e se adaptar a diferentes tamanhos de tela.
 
 |Web|Mobile|
 |-|-|
-|![Wireframe Web3](./assets/wireframe3.png)|![Wireframe Mobile2](./assets/wireframe4.png)|
+|![Wireframe Web3](./assets/wireframe5.png)|![Wireframe Mobile2](./assets/wireframe4.png)|
 
 ## Entrega
 A prova deve ser entregue pelo gitpages (OBRIGATÓRIO).
